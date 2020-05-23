@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<center>
+		<h1>Tic Tac Toe</h1><br><br>
+		<table id="board">
+			<tr>
+				<td id="c1" onclick="play(this)"></td>
+				<td id="c2" onclick="play(this)"></td>
+				<td id="c3" onclick="play(this)"></td>
+			</tr>
+			<tr>
+				<td id="c4" onclick="play(this)"></td>
+				<td id="c5" onclick="play(this)"></td>
+				<td id="c6" onclick="play(this)"></td>
+			</tr>
+			<tr>
+				<td id="c7" onclick="play(this)"></td>
+				<td id="c8" onclick="play(this)"></td>
+				<td id="c9" onclick="play(this)"></td>
+			</tr>
+		</table><br><br>
+
+		<div id="panel">
+			<br>
+			<h1 id="player"></h1>
+			<button type="button" onclick="restart()" id="restart">Restart</button>
+		</div>
+	</center>
+</body>
+</html>
