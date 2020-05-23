@@ -51,9 +51,9 @@ Future Directions
 A twist on the classic Hangman game: put your Harry Pottr knowledge to the test.
 Only true fans will conquer this game!
 
-![LIVE DEMO](https://skapoo01.github.io/jsGames/wizardsHangman)
+![](readme-images/wizardsHangman.gif)
 
-LIVE DEMO
+[LIVE DEMO](https://skapoo01.github.io/jsGames/wizardsHangman)
 
 Features
 1. SVG image manipulation
